@@ -12,7 +12,7 @@ export default function App() {
           <nav>
             <ul>
               <li>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <Link to="/mine">Mine</Link>
@@ -21,7 +21,7 @@ export default function App() {
           </nav>
         </header>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/mine" element={<Mine />} />
         </Routes>
       </div>

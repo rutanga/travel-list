@@ -132,19 +132,18 @@ input[type="checkbox"] {
 }
 
 /* Basic styling for header and navigation */
-/* Basic styling for header and navigation */
 header {
   background-color: #f8f9fa;
   padding: 1rem;
   display: flex;
-  justify-content: center; /* Center the nav in the header */
+  justify-content: center;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  gap: 2rem; /* Add space between the links */
+  gap: 10rem;
 }
 
 nav li {

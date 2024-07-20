@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "../index.css";
 
 export default function Form({ onAddItems }) {
   const [description, setDescription] = useState("");
